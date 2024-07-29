@@ -1,0 +1,103 @@
+html, body {
+    margin: 0; /* Removes default margin from the html and body elements */
+    padding: 0; 
+    height: 100%;/* Removes default padding from the html and body elements */
+     /* Ensures the html and body elements take up full height of the viewport */
+    /* Ensures the html and body elements take up full width of the viewport */
+    background: linear-gradient(to right, #009FC2, #0D0A0B);
+}
+#title{
+    background: linear-gradient(to right, #009FC2, #0D0A0B);
+}
+.nav-link {
+    color: #ffffff; /* Setting text color to white */
+    background-color: #333333; /* Dark background for all links */
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 100px;
+    color:white;
+    height: 100%;
+    
+    
+}
+#projects p{
+    text-align: left;
+    justify-content: left;
+}
+#projects h3{
+    text-align: left;
+    padding:0;
+}
+
+
+.bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size:2rem;
+  }
+.lato-thin {
+font-family: "Lato", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.profile_photo{
+    border-radius: 50%;
+}
+.fs-4{
+    padding-left: 40px;
+    color: white;
+    
+}
+
+#experience h3{
+    font-size: 25px; /* Set the font size to 14px */
+    
+
+    padding:0;
+    font-style: italic;
+    color: 00008B;
+}
+
+#experience p {
+    text-align: left;
+}
+
+#featured-3{
+    color:#000022;
+    background: linear-gradient(to top, #E0F7FA, #DCDCDC);;
+
+}
+
+
+/* Specifically target the 'Home' button when it's active to change background */
+
+.nav-link {
+    color: white !important; /* Overrides any other color styling */
+}
+h3, p {
+    text-align: center;
+    width: 100%;
+    font-family: Open Sans;
+    color: #000022;
+}
+p{
+    font-size: medium;
+}
+#experience h5{
+    text-align: left;
+    font-style: italic;
+}
+#projects .feature{
+    padding: 0 80px 0 5px;
+}
+
+#contact{
+    margin-bottom: 100px;
+}
